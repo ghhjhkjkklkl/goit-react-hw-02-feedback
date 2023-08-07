@@ -12,7 +12,6 @@ export class App extends Component {
   };
 
   incrementCount = btnId => {
-    
     this.setState(prevState => {
       return { [btnId]: prevState[btnId] + 1 };
     });
@@ -75,3 +74,5 @@ export class App extends Component {
     );
   }
 }
+
+export default App;
